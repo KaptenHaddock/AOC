@@ -35,6 +35,7 @@ with open('./input.txt') as f:
                     groupTotal += getVal(char)
                     break
             groupCounter = []
-print(total, groupTotal)
+            
+print("task1", total, "task2", groupTotal)
 
 
